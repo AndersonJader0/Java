@@ -1,0 +1,38 @@
+package Projetos.BonificaçãoEmpregados;
+
+public class Gerente extends Funcionario{
+
+    private String codUsuario;
+    private String senha;
+
+    public Gerente() { 
+    }
+
+    public Gerente(String nome, double salario, String codUsuario, String senha) {
+        super(nome, salario);
+        this.codUsuario = codUsuario;
+        this.senha = senha;
+    }
+    
+    @Override
+    public double calculaBonificacao () {
+        return this.getSalario() * 0.1 + 2000.00;
+    }
+    public double total () {
+        return this.getSalario() + getSalario() * 0.1;
+    }
+
+    public String getCodUsuario() {
+        return codUsuario;
+    }
+    public void setCodUsuario(String codUsuario) {
+        this.codUsuario = codUsuario;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+}
