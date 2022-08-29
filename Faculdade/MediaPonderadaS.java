@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MediaPonderada {
+public class MediaPonderadaS {
     public static void main(String[] args) {
 
         double nota1, nota2, nota3, nota4;
