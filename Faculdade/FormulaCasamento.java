@@ -1,7 +1,4 @@
-/* 
-Nome: Anderson Jader Ferreira Filho
-Ra: 52211907
-*/
+
 
 import java.util.Scanner;
 
