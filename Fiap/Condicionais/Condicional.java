@@ -1,12 +1,12 @@
-public class Condicional {
+	public class Condicional {
 	
         //if (condição) instrução.
         
         /*if (condição) {
         instrução1;
         instrução2;
-        }
-        */
+        } */
+		
         public static void main(String[] args) {
             
             int x = 11;
