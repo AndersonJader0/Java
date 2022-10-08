@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Library/Estruturas de Repetição/Estruturas de Repetição.iml" filepath="$PROJECT_DIR$/Library/Estruturas de Repetição/Estruturas de Repetição.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Projects.iml" filepath="$PROJECT_DIR$/Projects/Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ander.iml" filepath="$PROJECT_DIR$/ander.iml" />
+    </modules>
+  </component>
+</project>
