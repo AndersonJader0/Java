@@ -1,13 +1,14 @@
-package Fiap.Herança.Banco.tds;
+package Library.Herança.Banco.tds;
 
-public class Passaro extends Animal{
-	
-	private String pia;
-	
-	public String getPia() {
-		return pia;
-	}
-	public void setPia(String pia) {
-		this.pia = pia;
-	}
+public class Passaro extends Animal {
+
+    private String pia;
+
+    public String getPia() {
+        return pia;
+    }
+
+    public void setPia(String pia) {
+        this.pia = pia;
+    }
 }

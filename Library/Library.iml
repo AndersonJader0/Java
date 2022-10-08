@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/HelloWorld!" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Incremento e Decremento" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Leitura de Dados" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Herança" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
