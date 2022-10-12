@@ -1,6 +1,8 @@
 package Projetos.Newsstand;
 
 public class Bebida extends Produto{
+
+
     
     private String tipo;
 
