@@ -5,6 +5,7 @@ public class WordSize {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Digite uma palavra: ");
         String word = keyboard.next();
-        //System.out.println("Essa palavra tem: " + word.lenght());
+        System.out.println("Essa palavra tem: " + word.length() + " letras.");
+        keyboard.close();
     }
 }
