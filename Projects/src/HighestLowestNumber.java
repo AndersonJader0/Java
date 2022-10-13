@@ -11,5 +11,7 @@ public class HighestLowestNumber {
         }
         Arrays.sort(box);
         JOptionPane.showMessageDialog(null, "O maior valor digitado: " + box[14] + "\nO menor valor digitado: " + box[0]);
+        int calculate = box[14] + box[0];
+        JOptionPane.showMessageDialog(null, "A soma dos dois valores: " + calculate);
     }
 }
