@@ -1,7 +1,12 @@
 package Aula08;
 public class Aluno {
-    int idade;
+    private int idade;
     String nome;
+
+    Aluno(int idade, String nome){
+        this.idade = idade;
+        this.nome = nome;
+    }
 
     void fazAniversario(){
         idade++;
