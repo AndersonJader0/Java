@@ -1,10 +1,16 @@
 package AgenciaBancaria;
 
+import java.util.Objects;
+
+import static AgenciaBancaria.AgenciaBancaria.operacoes;
+
 public class Pessoa {
     private static int counter = 1;
     private String nome;
     private String cpf;
     private String email;
+
+    private static int senhaAdm = 111;
 
     public Pessoa(String nome, String cpf, String email){
         this.nome = nome;
@@ -51,4 +57,13 @@ public class Pessoa {
                 "\nCpf: " + getCpf() +
                 "\nEmail: " + getEmail();
     }
+    public static void login(int senha){
+    if(Objects.equals(senhaCadastro, senha)){
+        operacoes();
+    }else if(Objects.equals(senhaAdm, senha)){
+        operacoes();
+    }else{
+        System.out.println("Login inválido!");
+    }
+}
 }
